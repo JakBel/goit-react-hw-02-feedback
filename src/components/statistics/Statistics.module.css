@@ -1,0 +1,44 @@
+.container {
+  width: 1000px;
+  height: 700px;
+  background-color: white;
+  color: black;
+  text-align: left;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.neutral {
+  padding: 10px;
+  font-size: 16px;
+  margin-right: 20px;
+  border-radius: 5px;
+  border-style: hidden;
+}
+.neutral:focus:hover {
+  background-color: lightskyblue;
+}
+
+.good {
+  padding: 10px;
+  font-size: 16px;
+  margin-right: 20px;
+  background-color: greenyellow;
+  border-radius: 5px;
+  border-style: hidden;
+}
+.good:focus:hover {
+  background-color: green;
+}
+
+.bad {
+  padding: 10px;
+  font-size: 16px;
+  margin-right: 20px;
+  background-color: red;
+  border-radius: 5px;
+  border-style: hidden;
+}
+.bad:hover:focus {
+  background-color: maroon;
+}
